@@ -28,10 +28,10 @@ const JsUser = {
 //  console.log(JsUser);
 
  JsUser.greeting = function(){
-    console.log("Hello JS User");
+    console.log("Hello JS User");   // Hello JS User
  }
  JsUser.greetingTwo = function(){
-   console.log(`Hello JS User, ${this.name}`);
+   console.log(`Hello JS User, ${this.name}`);   // Hello JS User, Dewanand
 }
 
  console.log(JsUser.greeting());

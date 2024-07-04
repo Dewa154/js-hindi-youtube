@@ -30,3 +30,4 @@ console.log(newDate.getDay());
 newDate.toLocaleString('default', {
     weekday: "long",
 })
+

@@ -45,14 +45,14 @@ const users = [
 ]
 
 users[1].email
-// console.log(tinderUser);
+console.log(tinderUser);                //  { id: '123abc', name: 'Sammy', isLoggedIn: false }
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+console.log(Object.keys(tinderUser));               // [ 'id', 'name', 'isLoggedIn' ]
+console.log(Object.values(tinderUser));             // [ '123abc', 'Sammy', false ]
+console.log(Object.entries(tinderUser));            //  [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
-// console.log(tinderUser.hasOwnProperty('isLogged'));
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));       // true
+console.log(tinderUser.hasOwnProperty('isLogged'));         // false
 
 
 const course = {
@@ -63,10 +63,10 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: Instructor} = course
+const {courseInstructor: Instructor} = course  
 
 // console.log(courseInstructor);
-console.log(Instructor);
+console.log(Instructor);    // Dewanand Kurrey
 
 
 // **************API Formate**************

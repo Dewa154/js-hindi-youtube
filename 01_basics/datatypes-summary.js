@@ -14,7 +14,7 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-// const bigNumber = 3456543576654356754n   // if write n in last then automatically became bigInt
+const bigNumber = 3456543576654356754n   // if write n in last then automatically became bigInt
 
 
 // Reference (Non Primitive)
@@ -32,9 +32,13 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+console.log(bigNumber);
 console.log(typeof myFunction);
+console.log(myFunction);
 console.log(typeof heros);
+console.log(heros);
 console.log(typeof anotherId);
+console.log(anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
