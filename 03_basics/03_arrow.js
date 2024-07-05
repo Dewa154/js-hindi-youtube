@@ -45,7 +45,7 @@ const chai = () => {              //  This is arrow function
 
 // const addTwo = (num1, num2) => num1 + num2      // implicit arrow function  // oneline function  // implicit return
 
-// const addTwo = (num1, num2) => ( num1 + num2 )    // parathesis on single line function  // in React me this tachnique mostb useful.
+// const addTwo = (num1, num2) => ( num1 + num2 )    // parathesis on single line function  // in React me this tachnique most useful.
 
 // const addTwo = (num1, num2) => {username: "Dewanand"}    // undefined
 const addTwo = (num1, num2) => ({username: "Dewanand"})    // { username: 'Dewanand' }

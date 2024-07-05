@@ -16,6 +16,7 @@ function sayMyName(){
 //     console.log(number1 + number2);
 // }
 
+
 function addTwoNumbers(number1, number2){    // Note: (number1, number2)  = Parameter
     //  let result = number1 + number2
     // //  console.log("dewanand");  // always write console.log() before the result
