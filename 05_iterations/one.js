@@ -27,6 +27,7 @@ for (let i = 1; i <= 10; i++) {
     
 }
 
+<<<<<<< HEAD
 let myArray = ["flash", "batman", "superman"]
 // console.log(myArray.length);                    // 3
 
@@ -53,3 +54,27 @@ for (let index = 1; index <=20; index++) {
 
 
 
+=======
+
+// break and continue
+
+// for (let index = 1; index <= 20 ; index++){
+//     if (index == 5) {
+//         console.log(`Detected 5`);
+//         break;
+//     }
+//     console.log(`Value of i is ${index}`);  
+
+// }
+
+
+for (let index = 1; index <= 20 ; index++){         // copy paste shortcut  = Shift + Alt + Down Arrow
+    if (index == 5) {
+        console.log(`Detected 5`);
+        continue;                                 // continue that means 1 time continue
+    }
+    console.log(`Value of i is ${index}`);  
+
+}
+
+>>>>>>> 7c0a0b1 (05_iterations/one.js 1)
