@@ -77,4 +77,6 @@ for (let index = 1; index <= 20 ; index++){         // copy paste shortcut  = Sh
 
 }
 
+
+
 >>>>>>> 7c0a0b1 (05_iterations/one.js 1)
