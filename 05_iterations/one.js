@@ -26,5 +26,3 @@ for (let i = 0; i <= 10; i++) {
     
 }
 
-// For loop with break and continue in javascript
-// 14:46
