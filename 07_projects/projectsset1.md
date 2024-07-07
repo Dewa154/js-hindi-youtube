@@ -65,3 +65,21 @@ form.addEventListener('submit', function (e) {
 
 
 ```
+
+## Project 3
+
+````javascript
+print('Dewanand')
+
+const clock = document.getElementById('clock');
+// const clock = document.querySelector('#clock');
+
+// use for 1000 = 1 second , 2000 = 2 seconds
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleDateString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+
+````
