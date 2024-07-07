@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Aur Code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    // div.id = "myId"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    // div.innerText = "Chai Aur Code"
+    const addText = document.createTextNode("Chai Aur Code")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+
+
+
+//*****************************************************
+
+//     // Writen by Chatgpt
+
+//     // Function to create a div with className "main" and a random one-digit natural number as ID
+// function createDiv() {
+//     // Create the div element
+//     const div = document.createElement('div');
+
+//     // Set the class name to "main"
+//     div.className = 'main';
+
+//     // Generate a random one-digit natural number (1-9)
+//     const randomId = Math.floor(Math.random() * 9) + 1;
+
+//     // Set the ID of the div
+//     div.id = randomId;
+
+//     // Optionally, append the div to the body or another container
+//     document.body.appendChild(div);
+
+//     // Log the div to the console for verification
+//     console.log(div);
+// }
+
+// // Call the function to create and append the div
+// createDiv();
+
+
+</script>
+</html>
